@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#F1F4FD</color>
+    <color name="primary_variant">#E07C56</color>
+    <color name="secondary">#9589ED</color>
+    <color name="secondary_variant">#08D892</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_signup">#DDDDDD</color>
+    <color name="text_light">#C5CCD6</color>
+    <color name="text_dark">#5D636B</color>
+
+
+    ////////////////////////////////////////////
+    <color name="login">#FB9069</color>
+    <color name="underlined_color1">#FDBF77</color>
+    <color name="underlined_color2">#9589ED</color>
+</resources>

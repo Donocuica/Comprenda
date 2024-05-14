@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MIND</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="h_account">¿Ya tienes una cuenta?</string>
+    <string name="signup">Crear cuenta</string>
+    <string name="welcome"><font color="#9589ED">Bienvenidx a MIND</font></string>
+    <string name="ingresar"><font color="#FFFFFF"> Iniciar sesión</font></string>
+    <string name="password">¿Olvidastes tu contraseña</string>
+
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:src="@drawable/circle_gradient" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp">
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="0dp"
+            android:layout_height="280dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_logo" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_login"
+        android:layout_width="292dp"
+        android:layout_height="419dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signup1"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/circle_signup"
+                android:fontFamily="@font/poppins"
+                android:paddingStart="40dp"
+                android:text="@string/signup"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="150dp"
+                android:background="@drawable/circle_login"
+                android:fontFamily="@font/poppins"
+                android:text="@string/login"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="51dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Ingresa tu correo"/>
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="210dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Ingresa tu correo"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/a_logn_btn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="31dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/login1"
+            android:fontFamily="@font/poppins"
+            android:text="@string/ingresar"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="31dp"
+            android:layout_marginTop="370dp"
+            android:paddingStart="40dp"
+            android:text="@string/password" />
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
